@@ -6,27 +6,63 @@ body{
 
 header{
   background-image: url("https://i.pinimg.com/originals/62/a3/df/62a3df1127e9a3b66c396a58b1eee07b.jpg");
-  background-position: top;
   width: 100vw;
-  height: 350px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .overley{
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  height: 350px;
+  height: 100vh;
   width: 100vw;
 }
 
-span{
-  position: absolute;
-  left: 0;
-  text-align: center;
-  top: 145px;
-  width: 100%;
+.titolo, .nome_città{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.titolo_top{
   color: white;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: bold;
+  text-align: center;
+}
+
+span, a{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.città_1{
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2018/09/25/new-york-city.-wallpaper_.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.città_2{
+  background-image: url("https://wallpaperaccess.com/full/257754.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.città_3{
+  background-image: url("https://wallpaperplay.com/walls/full/c/f/e/259526.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
