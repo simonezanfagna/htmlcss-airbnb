@@ -1,3 +1,32 @@
 body{
-  
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url("https://i.pinimg.com/originals/62/a3/df/62a3df1127e9a3b66c396a58b1eee07b.jpg");
+  background-position: top;
+  width: 100vw;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overley{
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  height: 350px;
+  width: 100vw;
+}
+
+span{
+  position: absolute;
+  left: 0;
+  text-align: center;
+  top: 145px;
+  width: 100%;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
 }
